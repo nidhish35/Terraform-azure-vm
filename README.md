@@ -4,6 +4,9 @@ I have made the main file, instance file and network file different to make it m
 
 make sure to download the terraform in your system and also make sure that you are logged in azure cli
 
+az ad sp create-for-rbac --name MyServicePrincipal      = to create service principal 
+
+
 terraform fmt = this is used to coorect the code structure/indentations in the code.
 terraform validate = to check the code is valid or not.
 terraform plan = to check what resouces are going to be created with this terraform file.
